@@ -1,6 +1,7 @@
 // Get all open tabs and their details
 chrome.tabs.query({}, function(tabs) {
     // Create an empty string to store the file contents
+    // Firefox
     var fileContent = "";
   
     // Loop through the tabs array and add each tab's title and URL to the file contents
