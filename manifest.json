@@ -1,20 +1,18 @@
 {
   "manifest_version": 2,
-  "name": "Get Tabs Info",
+  "name": "My Extension",
   "version": "1.0",
-  "description": "Get all open tabs and their details",
-  "icons": {
-    "48": "icons/icon-48.png"
-  },
-  "permissions": [
-    "tabs",
-    "downloads",
-    "downloads.open",
-    "<all_urls>",
-    "fileSystem"
-  ],
+
+  "permissions": ["tabs", "activeTab", "downloads"],
+
   "browser_action": {
-    "default_popup": "popup.html",
-    "default_title": "Get Tabs Info"
+    "default_title": "My Extension",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    },
+    "default_popup": "popup.html"
   }
 }
