@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Get Tabs Info",
+  "version": "1.0",
+  "description": "Get all open tabs and their details",
+  "icons": {
+    "48": "icons/icon-48.png"
+  },
+  "permissions": [
+    "tabs",
+    "downloads",
+    "downloads.open",
+    "<all_urls>",
+    "fileSystem"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_title": "Get Tabs Info"
+  }
+}
