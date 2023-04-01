@@ -2,13 +2,36 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Get Tabs Info</title>
+    <title>Open Tabs Info</title>
+    <style>
+      body {
+        background-color: #f2f2f2;
+        font-family: Arial, sans-serif;
+        font-size: 8px;
+        font-weight: 400;
+      }
+
+      button {
+        font-size: 8px;
+        font-weight: 700;
+        color: #fff;
+        background-color: #007bff;
+        border: none;
+        padding: 4px 8px;
+        margin-right: 8px;
+        border-radius: 2px;
+        cursor: pointer;
+      }
+      button:hover {
+        background-color: #0069d9;
+      }
+    </style>
     <script src="popup.js"></script>
   </head>
   <body>
-    <h1>Open Tabs</h1>
+    <h1>Open Tabs Info</h1>
     <ul id="tabs-list"></ul>
-    <button id="save-btn">Save to file</button>
-    <button id="copy-btn">Copy links and titles</button>
+    <button id="save-file-btn">Save as file</button>
+    <button id="copy-links-btn">Copy links and titles</button>
   </body>
 </html>
