@@ -6,7 +6,7 @@
 <p>To install this extension, follow these steps:</p>
 <ol>
   <li>Download the extension files from the <a href="https://github.com/alwaz-shahid/extension-firefox-get-tabs">GitHub repository</a>.</li>
-  <li>Open Chrome and go to the Extensions page (chrome://extensions).</li>
+  <li>Open firefox and go to the Extensions page (about:debugging).</li>
   <li>Turn on Developer mode.</li>
   <li>Click the "Load unpacked" button and select the folder where you downloaded the extension files.</li>
   <li>The extension should now be installed and ready to use.</li>
