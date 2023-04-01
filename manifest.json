@@ -6,7 +6,7 @@
   "permissions": ["tabs", "activeTab", "downloads"],
 
   "browser_action": {
-    "default_title": "My Extension Firefox",
+    "default_title": "My Extension",
     "default_icon": {
       "16": "icons/icon.png"
     },
