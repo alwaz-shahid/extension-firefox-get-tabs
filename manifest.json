@@ -2,16 +2,15 @@
   "manifest_version": 2,
   "name": "My Extension",
   "version": "1.0",
-
-  "permissions": ["tabs", "activeTab", "downloads"],
-
+  "description": "Description of my extension",
+  "permissions": ["tabs", "activeTab", "storage"],
   "browser_action": {
     "default_title": "My Extension",
     "default_icon": {
-      "16": "icons/icon16.png",
-      "32": "icons/icon32.png",
-      "48": "icons/icon48.png",
-      "128": "icons/icon128.png"
+      "16": "icon-16.png",
+      "32": "icon-32.png",
+      "48": "icon-48.png",
+      "128": "icon-128.png"
     },
     "default_popup": "popup.html"
   }
